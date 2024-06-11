@@ -6,6 +6,12 @@
     <meta name="description" content="Site oficial da Pumena Studio">
     <title>Pumena Studio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+    if (location.protocol === 'https:') {
+        location.replace(`http:${location.href.substring(location.protocol.length)}`);
+    }
+</script>
+
 </head>
 <body>
     <header class="cabecalho">
