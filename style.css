@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: rgb(24, 24, 24);
+    color: white;
+}
+
+body {
+    font-size: 100%;
+    background: #14141E;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 2em;
+}
+
+.cabecalho-menu-item-nome {
+    font-size: 1.5em;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6em;
+    font-size: 0.9em;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 3em;
+    color:rgb(109, 54, 238);
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-size: 3em;
+}
+
+.input {
+    padding: 1em;
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9em;
+    background: white;
+    border-radius: 1em;
+    color: black;
+    border: none;
+}
+
+.botao {
+    border: none;
+    background: rgb(109, 54, 238);
+    padding: 1em;
+    border-radius: 2em;
+    width: 15em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+#decor {
+    text-decoration: overline;
+    color: rgb(109, 54, 238);
+}
+
+span{
+    color:rgb(109, 54, 238);
+}
