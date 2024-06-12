@@ -18,11 +18,10 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 1em;
     font-size: 0.9em;
 }
-
 .cabecalho-menu {
     display: flex;
     gap: 2em;
@@ -78,4 +77,13 @@ body {
 
 span{
     color:rgb(109, 54, 238);
+}
+
+button{
+    text-align: center;
+}
+
+.form{
+    margin-top: 100px;
+    text-align: center;
 }
