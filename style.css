@@ -87,3 +87,11 @@ button{
     margin-top: 100px;
     text-align: center;
 }
+
+.socialIcons{
+    display: flex;
+}
+
+.socialIcons a{
+    padding: 10px;
+}
