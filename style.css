@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -48,18 +49,6 @@ body {
     font-size: 3em;
 }
 
-.input {
-    padding: 1em;
-    width: 25em;
-    display: flex;
-    flex-direction: row;
-    font-size: 0.9em;
-    background: white;
-    border-radius: 1em;
-    color: black;
-    border: none;
-}
-
 .botao {
     border: none;
     background: rgb(109, 54, 238);
@@ -83,15 +72,69 @@ button{
     text-align: center;
 }
 
-.form{
-    margin-top: 100px;
-    text-align: center;
-}
-
 .socialIcons{
     display: flex;
 }
 
 .socialIcons a{
     padding: 10px;
+}
+/* Contêiner do slider */
+.slider {
+    margin-left: 250px;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 350px;
+}
+
+/* Contêiner das slides */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Estilo individual para cada slide */
+.slide {
+    min-width: 100%;
+    position: relative;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Estilo para as legendas */
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Animação do slider */
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(0); }
+}
+
+.slides {
+    animation: slideAnimation 32s infinite;
 }
