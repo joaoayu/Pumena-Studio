@@ -105,7 +105,11 @@ button {
 }
 
 .socialIcons a {
-    padding: 10px; /* Add padding */
+    padding: 6px; /* Add padding */
+}
+
+.socialIcons a:hover {
+    color: blue; /* cor ao passar o mouse */
 }
 
 /* Styles for the slider container */
@@ -167,4 +171,29 @@ button {
 
 .slides {
     animation: slideAnimation 32s infinite; /* Apply the animation */
+}
+
+/* Styles for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+    /* Reduce the size of elements for smaller screens */
+    .cabecalho {
+        padding: 0.5em; /* Reduce padding */
+        font-size: 0.8em; /* Reduce font size */
+    }
+
+    .conteudo {
+        padding: 3em; /* Reduce padding */
+        font-size: 0.8em; /* Reduce font size */
+    }
+
+    .conteudo-principal-escrito-titulo,
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 2em; /* Reduce font size */
+    }
+
+    .botao {
+        padding: 0.8em; /* Reduce padding */
+        width: 12em; /* Reduce width */
+        font-size: 0.7em; /* Reduce font size */
+    }
 }
