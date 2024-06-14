@@ -1,142 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/* Styles for the scrollbar in WebKit */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 10px; /* Set the width of the scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(82, 93, 194);
-    border-radius: 30px;
+    background: rgb(82, 93, 194); /* Background color of the scrollbar track */
+    border-radius: 30px; /* Border radius of the track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #000000;
-    border-radius: 30px;
+    background: #000000; /* Color of the scrollbar thumb */
+    border-radius: 30px; /* Border radius of the thumb */
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    background: rgb(24, 24, 24);
-    color: white;
+/* Global styles  */
+* {
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+    box-sizing: border-box; /* Use the border-box box-sizing model */
+    text-decoration: none; /* Remove text decorations */
+    color: white; /* Set the text color */
+    font-size: 100%; /* Set the font size to 100% */
+    background: #14141E; /* Set the background color */
+    font-family: 'Poppins', sans-serif; /* Set the font */
+    color: white; /* Set the text color */
 }
 
-body {
-    font-size: 100%;
-    background: #14141E;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
 
+/* Styles for the header */
 .cabecalho {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    padding: 1em;
-    font-size: 0.9em;
+    display: flex; /* Use a flex layout */
+    flex-direction: row; /* Direction of the flex boxes */
+    justify-content: space-between; /* Space items evenly with space at the ends */
+    align-items: center; /* Align items vertically in the center */
+    padding: 1em; /* Add padding */
+    font-size: 0.9em; /* Set the font size */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the header horizontally */
 }
+
+/* Styles for the header menu */
 .cabecalho-menu {
-    display: flex;
-    gap: 2em;
+    display: flex; /* Use a flex layout */
+    gap: 2em; /* Spacing between menu items */
 }
 
+/* Styles for the header menu item name */
 .cabecalho-menu-item-nome {
-    font-size: 1.5em;
+    font-size: 1.5em; /* Set the font size */
 }
 
+/* Styles for the content */
 .conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 6em;
-    font-size: 0.9em;
+    display: flex; /* Use a flex layout */
+    flex-direction: row; /* Direction of the flex boxes */
+    justify-content: space-around; /* Space items evenly */
+    padding: 6em; /* Add padding */
+    font-size: 0.9em; /* Set the font size */
 }
 
+/* Styles for the main title */
 .conteudo-principal-escrito-titulo {
-    font-size: 3em;
-    color:rgb(109, 54, 238);
+    font-size: 3em; /* Set the font size */
+    color:rgb(109, 54, 238); /* Set the text color */
 }
 
+/* Styles for the subtitle */
 .conteudo-principal-escrito-subtitulo {
-    font-size: 3em;
+    font-size: 3em; /* Set the font size */
 }
 
+/* Styles for the button */
 .botao {
-    border: none;
-    background: rgb(109, 54, 238);
-    padding: 1em;
-    border-radius: 2em;
-    width: 15em;
-    font-size: 0.8em;
-    font-weight: 600;
+    border: none; /* Remove the border */
+    background: rgb(109, 54, 238); /* Set the background color */
+    padding: 1em; /* Add padding */
+    border-radius: 2em; /* Set the border radius */
+    width: 15em; /* Set the width */
+    font-size: 0.8em; /* Set the font size */
+    font-weight: 600; /* Set the font weight */
 }
 
+/* Styles for the 'decor' element */
 #decor {
-    text-decoration: overline;
-    color: rgb(109, 54, 238);
+    text-decoration: overline; /* Set the text decoration to overline */
+    color: rgb(109, 54, 238); /* Set the text color */
 }
 
-span{
-    color:rgb(109, 54, 238);
+/* Styles for span elements */
+span {
+    color:rgb(109, 54, 238); /* Set the text color */
 }
 
-button{
-    text-align: center;
+/* Styles for buttons */
+button {
+    text-align: center; /* Center the text */
 }
 
-.socialIcons{
-    display: flex;
+/* Styles for social icons */
+.socialIcons {
+    display: flex; /* Use a flex layout */
 }
 
-.socialIcons a{
-    padding: 10px;
+.socialIcons a {
+    padding: 10px; /* Add padding */
 }
-/* Contêiner do slider */
+
+/* Styles for the slider container */
 .slider {
-    margin-left: 250px;
-    width: 80%;
-    max-width: 800px;
-    overflow: hidden;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    height: 350px;
+    margin: 0 auto; /* Center the slider horizontally */
+    width: 80%; /* Set the width */
+    max-width: 800px; /* Set a maximum width */
+    overflow: hidden; /* Hide overflow content */
+    border: 2px solid #fff; /* Set border properties */
+    border-radius: 10px; /* Set border radius */
+    height: 350px; /* Set the height */
 }
 
-/* Contêiner das slides */
+/* Styles for the slides container */
 .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+    display: flex; /* Use a flex layout */
+    transition: transform 0.5s ease-in-out; /* Add a transition effect */
 }
 
-/* Estilo individual para cada slide */
+/* Styles for individual slides */
 .slide {
-    min-width: 100%;
-    position: relative;
-    transition: opacity 0.5s ease-in-out;
+    min-width: 100%; /* Set the minimum width */
+    position: relative; /* Set the position to relative */
+    transition: opacity 0.5s ease-in-out; /* Add a transition effect */
 }
 
+/* Styles for slide images */
 .slide img {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
+    width: 100%; /* Set the width to 100% */
+    display: block; /* Display as block */
+    border-radius: 10px; /* Set border radius */
 }
 
-/* Estilo para as legendas */
+/* Styles for slide captions */
 .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 16px;
+    position: absolute; /* Set the position to absolute */
+    top: 50%; /* Align to the top */
+    left: 50%; /* Align to the left */
+    transform: translate(-50%, -50%); /* Center the caption */
+    color: #fff; /* Set the text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Set the background color */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Set border radius */
+    font-size: 16px; /* Set the font size */
 }
 
-/* Animação do slider */
+/* Animation for the slider */
 @keyframes slideAnimation {
     0% { transform: translateX(0); }
     20% { transform: translateX(0); }
@@ -150,5 +166,5 @@ button{
 }
 
 .slides {
-    animation: slideAnimation 32s infinite;
+    animation: slideAnimation 32s infinite; /* Apply the animation */
 }
