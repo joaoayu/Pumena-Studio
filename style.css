@@ -127,6 +127,7 @@ button {
 .slides {
     display: flex; /* Use a flex layout */
     transition: transform 0.5s ease-in-out; /* Add a transition effect */
+    margin-top: -10px;
 }
 
 /* Styles for individual slides */
