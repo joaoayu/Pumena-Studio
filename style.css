@@ -116,7 +116,7 @@ button {
 .slider {
     margin: 0 auto; /* Center the slider horizontally */
     width: 80%; /* Set the width */
-    max-width: 800px; /* Set a maximum width */
+    max-width: 750px; /* Set a maximum width */
     overflow: hidden; /* Hide overflow content */
     border: 2px solid #fff; /* Set border properties */
     border-radius: 10px; /* Set border radius */
