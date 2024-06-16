@@ -197,4 +197,7 @@ button {
     .slider{
         height: 175px;
     }
+    .caption{
+        font-size: 8px;
+    }
 }
