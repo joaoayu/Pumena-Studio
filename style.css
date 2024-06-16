@@ -176,7 +176,7 @@ button {
     /* Reduce the size of elements for smaller screens */
     .cabecalho {
         padding: 0.5em; /* Reduce padding */
-        font-size: 0.8em; /* Reduce font size */
+        font-size: 0.5em; /* Reduce font size */
     }
 
     .conteudo {
@@ -193,5 +193,8 @@ button {
         padding: 0.8em; /* Reduce padding */
         width: 12em; /* Reduce width */
         font-size: 0.7em; /* Reduce font size */
+    }
+    .slider{
+        height: 175px;
     }
 }
