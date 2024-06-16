@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>Pumena Studio</title>
 </head>
 <body>
     <!-- HEADER -->
@@ -12,8 +12,8 @@
         <a class="cabecalho-menu-item-nome">Pumena</a>
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="index.html">Inicio</a>
-            <a class="cabecalho-menu-item" href="sunshine.html"><span>Sunshine</span></a>
-            <a class="cabecalho-menu-item" href="dream.html"><span>Dream</span></a>
+            <a class="cabecalho-menu-item" href="sunshine.html">Sunshine</a>
+            <a class="cabecalho-menu-item" href="dream.html">Dream</a>
             <a class="cabecalho-menu-item" href="contato.html">Contato</a>
             <a class="cabecalho-menu-item" href="sobre.html">Sobre nós</a>
         </nav>
@@ -22,9 +22,27 @@
     <main class="conteudo">
         <section class="conteudo-principal">
             <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Coming soon...</h1>
+                <h1 class="conteudo-principal-escrito-titulo"><span>Em breve...</span></h1>
             </div>
         </section>
     </main>
+    <style>
+        @keyframes moveLetters {
+        0% {
+                transform: translateY(-50px); /* Movimento inicial para cima */
+                opacity: 0; /* Começa invisível */
+            }
+            100% {
+                transform: translateY(0); /* Volta à posição original */
+                opacity: 1; /* Torna-se visível */
+            }
+        }
+        
+        .conteudo-principal-escrito-titulo span {
+            display: inline-block; 
+            animation: moveLetters 1s ease forwards; 
+            opacity: 0;
+        }
+            </style>
 </body>
 </html>

@@ -14,7 +14,6 @@
     background: #000000; /* Color of the scrollbar thumb */
     border-radius: 30px; /* Border radius of the thumb */
 }
-
 /* Global styles  */
 * {
     margin: 0; /* Remove margins */
@@ -28,6 +27,9 @@
     color: white; /* Set the text color */
 }
 
+a:hover{
+    color:rgb(109, 54, 238); /* Set the text color */
+}
 
 /* Styles for the header */
 .cabecalho {
@@ -157,21 +159,16 @@ button {
     font-size: 16px; /* Set the font size */
 }
 
-/* Animation for the slider */
 @keyframes slideAnimation {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    45% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    70% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    95% { transform: translateX(-300%); }
-    100% { transform: translateX(0); }
+    0% { transform: translateX(0); } 
+    25% { transform: translateX(0); }
+    50% { transform: translateX(-100%); }
+    75% { transform: translateX(-100%); } 
+    100% { transform: translateX(0); } 
 }
 
 .slides {
-    animation: slideAnimation 32s infinite; /* Apply the animation */
+    animation: slideAnimation 16s infinite; 
 }
 
 /* Styles for screens smaller than 768px (mobile devices) */
