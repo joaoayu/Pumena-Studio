@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /sunshine
+Allow: /sobre
+Allow: /dream
+Allow: /index
+Allow: /contato
