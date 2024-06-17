@@ -69,11 +69,6 @@ a:hover{
     color:rgb(109, 54, 238); /* Set the text color */
 }
 
-/* Styles for the subtitle */
-.conteudo-principal-escrito-subtitulo {
-    font-size: 3em; /* Set the font size */
-}
-
 /* Styles for the button */
 .botao {
     border: none; /* Remove the border */
@@ -184,8 +179,7 @@ button {
         font-size: 0.8em; /* Reduce font size */
     }
 
-    .conteudo-principal-escrito-titulo,
-    .conteudo-principal-escrito-subtitulo {
+    .conteudo-principal-escrito-titulo {
         font-size: 2em; /* Reduce font size */
     }
 
