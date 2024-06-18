@@ -13,19 +13,19 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.pumena.com/dream</loc>
+        <loc>https://pumena.com/dream</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.pumena.com/sunshine</loc>
+        <loc>https://pumena.com/sunshine</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://www.pumena.com/sobre</loc>
+        <loc>https://pumena.com/sobre</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
