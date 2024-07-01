@@ -68,7 +68,6 @@ a:hover{
     font-size: 3em; /* Set the font size */
     color: #C18AFF; /* Set the text color */
 }
-
 /* Styles for the button */
 .botao {
     border: none; /* Remove the border */
@@ -165,6 +164,38 @@ button {
 .slides {
     animation: slideAnimation 16s infinite; 
 }
+@keyframes spin {
+    0% { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+    100% { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+#dream-link {
+    position: relative;
+    display: inline-block;
+}
+
+#dream-link::before, 
+#dream-link::after {
+    content: '★';
+    position: absolute;
+    font-size: 0.8em; /* Tamanho da estrela */
+    color: #FFFFFF; /* Cor branca para as estrelas */
+}
+
+#dream-link::before {
+    top: 10px; /* Ajuste para aproximar a estrela do texto */
+    left: 0;
+    animation: spin 2s linear infinite;
+    transform-origin: center center;
+}
+
+#dream-link::after {
+    top: -10px; /* Ajuste para aproximar a estrela do texto */
+    right: 0;
+    animation: spin 2s linear infinite reverse;
+    transform-origin: center center;
+}
+
 
 
 /* Styles for screens smaller than 768px (mobile devices) */
