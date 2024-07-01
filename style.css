@@ -170,7 +170,7 @@ button {
 @media (max-width: 767px) {
     /* Reduce the size of elements for smaller screens */
     .cabecalho {
-        padding: 0.5em; /* Reduce padding */
+        padding: 2em; /* Reduce padding */
         font-size: 0.5em; /* Reduce font size */
     }
 
