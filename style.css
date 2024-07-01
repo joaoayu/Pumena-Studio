@@ -166,6 +166,7 @@ button {
     animation: slideAnimation 16s infinite; 
 }
 
+
 /* Styles for screens smaller than 768px (mobile devices) */
 @media (max-width: 767px) {
     /* Reduce the size of elements for smaller screens */
