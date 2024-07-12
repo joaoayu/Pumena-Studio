@@ -226,4 +226,7 @@ button {
     .caption{
         font-size: 8px;
     }
+    #imgSunshine{
+        height: 200px;
+    }
 }
